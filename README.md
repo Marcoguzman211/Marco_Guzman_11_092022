@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Développez une application Web avec React et React Router
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Avec plus de 500 annonces postées chaque jour Kasa fait partie des leaders de la location d’appartements entre particuliers en France.
 
-## Available Scripts
+## Pour commencer
 
-In the project directory, you can run:
 
-### `npm start`
+### Pré-requis
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Ce qu'il est requis pour commencer avec votre projet...
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Programme 1
+- Programme 2
+- etc...
 
-### `npm test`
+### Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Les étapes pour installer votre programme....
 
-### `npm run build`
+Dites ce qu'il faut faire...
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+_exemple_: Executez la commande ``telnet mapscii.me`` pour commencer ensuite [...]
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Ensuite vous pouvez montrer ce que vous obtenez au final...
 
-### `npm run eject`
+## Démarrage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Dites comment faire pour lancer votre projet
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Fabriqué avec
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Entrez les programmes/logiciels/ressources que vous avez utilisé pour développer votre projet
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+_exemples :_
+* [Materialize.css](http://materializecss.com) - Framework CSS (front-end)
+* [Atom](https://atom.io/) - Editeur de textes
 
-## Learn More
+## Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Si vous souhaitez contribuer, lisez le fichier [CONTRIBUTING.md](https://example.org) pour savoir comment le faire.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Versions
+Listez les versions ici 
+_exemple :_
+**Dernière version stable :** 5.0
+**Dernière version :** 5.1
+Liste des versions : [Cliquer pour afficher](https://github.com/your/project-name/tags)
+_(pour le lien mettez simplement l'URL de votre projets suivi de ``/tags``)_
 
-### Code Splitting
+## Auteurs
+Listez le(s) auteur(s) du projet ici !
+* **Jhon doe** _alias_ [@outout14](https://github.com/outout14)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Lisez la liste des [contributeurs](https://github.com/your/project/contributors) pour voir qui à aidé au projet !
 
-### Analyzing the Bundle Size
+_(pour le lien mettez simplement l'URL de votre projet suivi de ``/contirubors``)_
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## License
 
-### Making a Progressive Web App
+Ce projet est sous licence ``exemple: WTFTPL`` - voir le fichier [LICENSE.md](LICENSE.md) pour plus d'informations
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
