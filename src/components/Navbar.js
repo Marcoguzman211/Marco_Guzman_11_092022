@@ -1,14 +1,17 @@
 import React from 'react'
-import {Link} from "react-router-dom";
+import logo from "../assets/logo-kasa.png";
+import {NavLink} from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav>
-        <Link to='/'>
-          <img src='' alt='Logo de KASA' />
-        </Link>
-        <Link to='/'>Accueil</Link>
-        <Link to="/about">À Propos</Link>
+    <nav className='navbar-container'>
+        <NavLink to='/'>
+          <img src={logo} className='navbar-logo' alt='Logo de KASA' />
+        </NavLink>
+        <div className='navbar-items'>
+          <NavLink to='/' className="navbar-item">Accueil</NavLink>
+          <NavLink to="/about" className="navbar-item">À Propos</NavLink>
+        </div>
     </nav>
   )
 }
