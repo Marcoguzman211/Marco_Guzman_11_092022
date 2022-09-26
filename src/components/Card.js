@@ -1,10 +1,14 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
-const Card = ({title}) => {
+const Card = ({title, image, id}) => {
   return (
-    <div className='card-container'>
+    <NavLink to={"/logement/"+id}>
+      <div className='card-container'>
         <h3>{title}</h3>
-    </div>
+        <img src={image} alt={title} />
+      </div>
+    </NavLink>
   )
 }
 
