@@ -1,0 +1,30 @@
+.collapse-about-container {
+    @media (min-width: 768px) {
+        padding: 0 6rem;
+    }
+}
+
+.collapse {
+    margin-top: 0.5rem;
+}
+
+.collapse-header {
+    background-color: $primary-color;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: .7rem;
+    border-radius: .3rem;
+    & h3 {
+        color: white;
+    }
+}
+
+.collapse-text {
+    background-color: $background-color;
+    padding: 1rem;
+    border-radius: .3rem;
+    & p {
+        color: $primary-color;
+    }
+}

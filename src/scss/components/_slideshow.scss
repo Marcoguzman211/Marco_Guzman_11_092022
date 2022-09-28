@@ -1,0 +1,32 @@
+.slideshow-container {
+    height: 15rem;
+    margin-top: 2rem;
+    position: relative;
+    @media (min-width: 768px) {
+        height: 20rem;         
+     }
+    @media (min-width: 1024px) {
+       height: 30rem;         
+    }
+}
+
+.slideshow-mainPicture {
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+.slideshow-arrow-right {
+    position: absolute;
+    top: 45%;
+    right: 2%;
+    height: 3rem;
+}
+
+.slideshow-arrow-left {
+    position: absolute;
+    top: 45%;
+    left: 2%;
+    height: 3rem;
+}

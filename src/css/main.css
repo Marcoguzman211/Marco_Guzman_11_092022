@@ -172,6 +172,37 @@ input {
   left: 5%;
 }
 
+@media (min-width: 768px) {
+  .collapse-about-container {
+    padding: 0 6rem;
+  }
+}
+
+.collapse {
+  margin-top: 0.5rem;
+}
+
+.collapse-header {
+  background-color: #FF6060;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0.7rem;
+  border-radius: 0.3rem;
+}
+.collapse-header h3 {
+  color: white;
+}
+
+.collapse-text {
+  background-color: #E5E5E5;
+  padding: 1rem;
+  border-radius: 0.3rem;
+}
+.collapse-text p {
+  color: #FF6060;
+}
+
 .notFound-container {
   display: flex;
   flex-direction: column;
@@ -236,8 +267,46 @@ input {
   }
 }
 
+.slideshow-container {
+  height: 15rem;
+  margin-top: 2rem;
+  position: relative;
+}
+@media (min-width: 768px) {
+  .slideshow-container {
+    height: 20rem;
+  }
+}
+@media (min-width: 1024px) {
+  .slideshow-container {
+    height: 30rem;
+  }
+}
+
+.slideshow-mainPicture {
+  height: 100%;
+  width: 100%;
+  border-radius: 1rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.slideshow-arrow-right {
+  position: absolute;
+  top: 45%;
+  right: 2%;
+  height: 3rem;
+}
+
+.slideshow-arrow-left {
+  position: absolute;
+  top: 45%;
+  left: 2%;
+  height: 3rem;
+}
+
 .footer {
-  margin-top: 1rem;
+  margin: 1rem -5rem auto -5rem;
   background-color: #000;
   padding: 2rem;
   justify-content: center;

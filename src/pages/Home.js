@@ -11,7 +11,6 @@ const Home = () => {
   useEffect(() => {
     axios.get("/logements.json").then((res) => setData(res.data));
   }, []);
-  console.log(data);
   return (
     <>
       <Navbar />
