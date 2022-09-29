@@ -305,6 +305,68 @@ input {
   height: 3rem;
 }
 
+.main-location-header {
+  margin-top: 1rem;
+}
+
+.main-location-title {
+  color: #FF6060;
+  font-size: 1.2rem;
+}
+
+.main-location-lieu {
+  color: #FF6060;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+.main-location-tags {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.tag {
+  padding: 0.3rem 1.5rem;
+  background-color: #FF6060;
+  color: white;
+  border-radius: 0.4rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.main-location-section2 {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rating-star {
+  height: 1.3rem;
+}
+
+.host {
+  display: flex;
+}
+
+.host-name {
+  color: #FF6060;
+  font-weight: 600;
+  align-self: center;
+}
+
+.host-picture {
+  border-radius: 50%;
+  height: 4rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-left: 0.5rem;
+}
+
 .footer {
   margin: 1rem -5rem auto -5rem;
   background-color: #000;
