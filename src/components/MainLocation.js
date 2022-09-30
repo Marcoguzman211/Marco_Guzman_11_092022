@@ -1,16 +1,12 @@
-import axios from 'axios';
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import Rating from './Rating';
 import Tags from './Tags';
+import logements from "../data/logements.json"
+import Host from './Host';
+import Collapse from './Collapse';
 
 const MainLocation = ({id}) => {
-    const [logement, setLogement] = useState([]);
-  useEffect(() => {
-    axios.get("/logements.json").then((res) => {
-        const logement = res.data.find((logement) => logement.id === id);
-        setLogement(logement)
-    });
-  }, [id]);
+    const logement = logements.find(apartment => apartment.id === id)
   /* title, location, tags, host.name, host.picture */
   return (
     <div className='main-location-container'>
@@ -25,10 +21,11 @@ const MainLocation = ({id}) => {
         </div>
         <div className='main-location-section2'>
             <Rating rating={logement.rating}/>
-            <div className='host'>
-                {logement && <h3 className='host-name'>{logement.host.name}</h3>}
-                <img className='host-picture' src={logement.host.picture} alt={logement.host.name} />
-            </div>
+            <Host name={logement.host.name} picture={logement.host.picture}/>
+        </div>
+        <div className='main-location-collapses'>
+            <Collapse initialOpened={true} title={'Description'} text={logement.description}/>
+            <Collapse initialOpened={true} title={'Équipements'} text={logement.equipments}/>
         </div>
 
     </div>

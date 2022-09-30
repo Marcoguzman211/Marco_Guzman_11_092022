@@ -60,3 +60,17 @@
     object-fit: cover;
     margin-left: .5rem;
 }
+
+.main-location-collapses {
+    margin-top: 1rem;
+    & > div p {
+        margin-top: .5rem;
+    }
+    @media (min-width: 1024px) {
+        display: flex;
+        gap: 1rem;
+        & > div {
+            width: 50%;
+        }
+    }
+}

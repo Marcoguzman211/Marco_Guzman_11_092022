@@ -367,6 +367,22 @@ input {
   margin-left: 0.5rem;
 }
 
+.main-location-collapses {
+  margin-top: 1rem;
+}
+.main-location-collapses > div p {
+  margin-top: 0.5rem;
+}
+@media (min-width: 1024px) {
+  .main-location-collapses {
+    display: flex;
+    gap: 1rem;
+  }
+  .main-location-collapses > div {
+    width: 50%;
+  }
+}
+
 .footer {
   margin: 1rem -5rem auto -5rem;
   background-color: #000;

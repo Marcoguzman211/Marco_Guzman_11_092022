@@ -5,11 +5,13 @@ const Collapse = ({ initialOpened, title, text }) => {
 
   return (
     <div className='collapse'>
-      <div className='collapse-header'>
+      <div className='collapse-header' onClick={() => setIsOpened(!isOpened)}>
         <h3>{title}</h3>
-        <img src={isOpened ? "/assets/arrow-down.png" : "/assets/arrow-up.png"} onClick={() => setIsOpened(!isOpened)} alt={title} />
+        <img src={isOpened ? "/assets/arrow-down.png" : "/assets/arrow-up.png"} alt={title} />
       </div>
-      {isOpened && <div className='collapse-text'><p>{text}</p></div>}
+      {isOpened && <div className='collapse-text'>
+        {typeof text === "string" ? <p>{text}</p> : text.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+        </div>}
     </div>
   )
 }
