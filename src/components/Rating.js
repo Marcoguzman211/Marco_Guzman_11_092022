@@ -13,7 +13,7 @@ const Rating = ({rating}) => {
             />
             );
         }
-  return <div>{stars}</div>
+  return <div className='rating-container'>{stars}</div>
 }
 
 export default Rating

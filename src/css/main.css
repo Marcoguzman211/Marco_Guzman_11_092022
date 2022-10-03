@@ -121,11 +121,18 @@ input {
   }
 }
 
-.hero-image-responsive {
+.hero-image-responsive img {
   width: 100%;
-  height: 20rem;
+  height: 17rem;
   border-radius: 15px;
   filter: brightness(50%);
+}
+@media (min-width: 1024px) {
+  .hero-image-responsive img {
+    height: 12rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
 }
 
 .main-container {
@@ -172,6 +179,9 @@ input {
   left: 5%;
 }
 
+.collapse-about-container {
+  margin-top: 1.2rem;
+}
 @media (min-width: 768px) {
   .collapse-about-container {
     padding: 0 6rem;
@@ -180,6 +190,9 @@ input {
 
 .collapse {
   margin-top: 0.5rem;
+}
+.collapse:hover {
+  cursor: pointer;
 }
 
 .collapse-header {
@@ -195,8 +208,8 @@ input {
 }
 
 .collapse-text {
-  background-color: #E5E5E5;
-  padding: 1rem;
+  background-color: #F6F6F6;
+  padding: 2rem 1rem;
   border-radius: 0.3rem;
 }
 .collapse-text p {
@@ -211,7 +224,7 @@ input {
 
 .notFound-code {
   color: #FF6060;
-  font-size: 8rem;
+  font-size: 6rem;
   margin-top: 10rem;
 }
 @media (min-width: 1024px) {
@@ -297,12 +310,28 @@ input {
   right: 2%;
   height: 3rem;
 }
+.slideshow-arrow-right:hover {
+  cursor: pointer;
+}
 
 .slideshow-arrow-left {
   position: absolute;
   top: 45%;
   left: 2%;
   height: 3rem;
+}
+.slideshow-arrow-left:hover {
+  cursor: pointer;
+}
+
+.main-location-container {
+  margin-top: 2rem;
+}
+@media (min-width: 1024px) {
+  .main-location-container {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .main-location-header {
@@ -312,11 +341,17 @@ input {
 .main-location-title {
   color: #FF6060;
   font-size: 1.2rem;
+  font-weight: 500;
+}
+@media (min-width: 768px) {
+  .main-location-title {
+    font-size: 1.5rem;
+  }
 }
 
 .main-location-lieu {
   color: #FF6060;
-  font-weight: 600;
+  font-weight: 500;
   margin-top: 0.5rem;
 }
 
@@ -343,6 +378,11 @@ input {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+@media (min-width: 1024px) {
+  .main-location-section2 {
+    flex-direction: column-reverse;
+  }
 }
 
 .rating-star {
