@@ -16,7 +16,7 @@ const Logement = () => {
     <MainLocation id={id}/>
     <Footer />
     </>
-  )
-}
+  );
+};
 
-export default Logement
+export default Logement;

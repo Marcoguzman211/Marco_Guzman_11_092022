@@ -1,8 +1,8 @@
-import React from 'react'
-import Hero from '../components/Hero'
-import Navbar from '../components/Navbar'
-import Footer from "../components/Footer";
-import backgroundImage from "../assets/background-about.png";
+import React from 'react';
+import Hero from '../components/Hero';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+import backgroundImage from '../assets/background-about.png';
 import Collapse from '../components/Collapse';
 
 const About = () => {
@@ -18,7 +18,7 @@ const About = () => {
       </div>
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default About
+export default About;

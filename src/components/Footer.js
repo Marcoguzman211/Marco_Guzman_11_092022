@@ -1,5 +1,5 @@
-import React from 'react'
-import logo from "../assets/logo-kasa-white.png";
+import React from 'react';
+import logo from '../assets/logo-kasa-white.png';
 
 const Footer = () => {
   return (
@@ -7,7 +7,7 @@ const Footer = () => {
         <img src={logo} alt="logo de kasa" />
         <p>© 2022 Kasa. All rights reserved</p>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

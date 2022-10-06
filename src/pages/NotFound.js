@@ -1,6 +1,6 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
-import Navbar from '../components/Navbar'
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import Navbar from '../components/Navbar';
 
 const NotFound = () => {
   return (
@@ -8,11 +8,11 @@ const NotFound = () => {
       <Navbar />
       <div className='notFound-container'>
         <h1 className='notFound-code'>404</h1>
-        <p className='notFound-message'>Oups! La page que vous demandez n'existe pas</p>
-        <NavLink to="/" className="notFound-link">Retourner sur la page d'accueil</NavLink>
+        <p className='notFound-message'>Oups! La page que vous demandez n&apos;existe pas</p>
+        <NavLink to="/" className="notFound-link">Retourner sur la page d&apos;accueil</NavLink>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default NotFound
+export default NotFound;

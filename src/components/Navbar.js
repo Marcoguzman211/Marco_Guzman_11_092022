@@ -1,6 +1,6 @@
-import React from 'react'
-import logo from "../assets/logo-kasa.png";
-import {NavLink} from "react-router-dom";
+import React from 'react';
+import logo from '../assets/logo-kasa.png';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -13,7 +13,7 @@ const Navbar = () => {
           <NavLink to="/about" className="navbar-item">À Propos</NavLink>
         </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

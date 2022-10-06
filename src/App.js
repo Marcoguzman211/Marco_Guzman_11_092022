@@ -1,11 +1,10 @@
-import React from "react";
-import Home from './pages/Home'
-import Logement from './pages/Logement'
-import NotFound from './pages/NotFound'
-import About from './pages/About'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import "./css/main.css";
-
+import React from 'react';
+import Home from './pages/Home';
+import Logement from './pages/Logement';
+import NotFound from './pages/NotFound';
+import About from './pages/About';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import './css/main.css';
 
 const App = () => {
   return (
@@ -20,6 +19,6 @@ const App = () => {
         </BrowserRouter>
     </div>
   );
-}
+};
 
 export default App;
