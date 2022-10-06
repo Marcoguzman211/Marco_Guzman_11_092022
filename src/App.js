@@ -5,16 +5,17 @@ import NotFound from './pages/NotFound';
 import About from './pages/About';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './css/main.css';
+import { home, logement, about, notFound } from './routes';
 
 const App = () => {
   return (
     <div className="App">
       <BrowserRouter>
             <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/logement/:id" element={<Logement />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/*" element={<NotFound />} />
+                <Route path={home} element={<Home />} />
+                <Route path={logement} element={<Logement />} />
+                <Route path={about} element={<About />} />
+                <Route path={notFound} element={<NotFound />} />
             </Routes>
         </BrowserRouter>
     </div>
