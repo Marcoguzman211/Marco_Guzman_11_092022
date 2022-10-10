@@ -9,7 +9,6 @@ import { Navigate } from 'react-router-dom';
 const MainLocation = ({ id }) => {
   const logement = logements.find(apartment => apartment.id === id);
   /* title, location, tags, host.name, host.picture */
-  console.log(logement);
   if (logement === undefined) {
     return <Navigate to='/error404'/>;
   } else {
