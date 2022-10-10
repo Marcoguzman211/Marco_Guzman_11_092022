@@ -3,60 +3,38 @@
 Avec plus de 500 annonces postées chaque jour Kasa fait partie des leaders de la location d’appartements entre particuliers en France.
 
 ## Pour commencer
+Le recrutement de la personne en charge du Back-End n'est pas terminé et va prendre plus de temps que prévu. Du coup, un fichier JSON contenant les 20 dernières annonces de logements est disponible pour pouvoir construire le Front qui correspond.
 
 
 ### Pré-requis
 
 Ce qu'il est requis pour commencer avec votre projet...
 
-- Programme 1
-- Programme 2
-- etc...
+- Avoir installé NODE.JS
+- Cloner ce repository
 
 ### Installation
 
-Les étapes pour installer votre programme....
+Les étapes pour installer le site :
 
-Dites ce qu'il faut faire...
+À partir du dossier racine du projet, sur la ligne de commandes, exécuter la commande suivante :
 
-_exemple_: Executez la commande ``telnet mapscii.me`` pour commencer ensuite [...]
-
-
-Ensuite vous pouvez montrer ce que vous obtenez au final...
+```npm install```
 
 ## Démarrage
 
-Dites comment faire pour lancer votre projet
+Une fois l'installation finie, vous pouvez taper : 
+
+```npm start```
 
 ## Fabriqué avec
 
-Entrez les programmes/logiciels/ressources que vous avez utilisé pour développer votre projet
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white" />  
 
-_exemples :_
-* [Materialize.css](http://materializecss.com) - Framework CSS (front-end)
-* [Atom](https://atom.io/) - Editeur de textes
+Liste entière :
+* [React.js](https://fr.reactjs.org/) - Framework Javascript
+* [React Router](https://v5.reactrouter.com/web/guides/quick-start) - Routeur pour React.js
 
-## Contributing
-
-Si vous souhaitez contribuer, lisez le fichier [CONTRIBUTING.md](https://example.org) pour savoir comment le faire.
-
-## Versions
-Listez les versions ici 
-_exemple :_
-**Dernière version stable :** 5.0
-**Dernière version :** 5.1
-Liste des versions : [Cliquer pour afficher](https://github.com/your/project-name/tags)
-_(pour le lien mettez simplement l'URL de votre projets suivi de ``/tags``)_
-
-## Auteurs
-Listez le(s) auteur(s) du projet ici !
-* **Jhon doe** _alias_ [@outout14](https://github.com/outout14)
-
-Lisez la liste des [contributeurs](https://github.com/your/project/contributors) pour voir qui à aidé au projet !
-
-_(pour le lien mettez simplement l'URL de votre projet suivi de ``/contirubors``)_
-
-## License
-
-Ce projet est sous licence ``exemple: WTFTPL`` - voir le fichier [LICENSE.md](LICENSE.md) pour plus d'informations
+## Auteur
+* **Marco Guzman** _alias_ [@Marcoguzman211](https://github.com/Marcoguzman211)
 

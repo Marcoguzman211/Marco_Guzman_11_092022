@@ -29,6 +29,7 @@ const Slideshow = ({ id }) => {
         <img className="slideshow-mainPicture"src={pictures[actualPictureIndex]} alt="banner slidewshow"/>
         {pictures.length > 1 && <img className="slideshow-arrow-right" src={'/assets/arrow-right.png'} alt="arrow right" onClick={nextPicture}/>}
         {pictures.length > 1 && <img className="slideshow-arrow-left" src={'/assets/arrow-left.png'} alt="arrow left" onClick={previousPicture}/>}
+        {pictures.length > 1 && <p className="slideshow-counter">{actualPictureIndex + 1}/{pictures.length}</p>}
     </div>
     );
   }
