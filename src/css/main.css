@@ -462,6 +462,7 @@ input {
   padding: 2rem;
   justify-content: center;
   display: grid;
+  margin-top: 2rem;
 }
 .footer img {
   height: 3rem;
